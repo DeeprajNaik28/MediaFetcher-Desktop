@@ -1,0 +1,12 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Downloaded media
+downloads/
+
+# FFmpeg folder
+ffmpeg-8.1-essentials_build/
+
+# Windows files
+Thumbs.db

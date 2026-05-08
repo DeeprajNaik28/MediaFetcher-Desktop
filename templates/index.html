@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My MediaFetcher-Desktop</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🎬 My MediaFetcher-Desktop</h1>
+	<p style="font-size:12px; opacity:0.7;">
+	Educational use only. Respect copyright laws and platform terms.
+	</p>
+    <input type="text" id="url" placeholder="Paste YouTube or Playlist link">
+    <br>
+    <button onclick="getInfo()">Fetch</button>
+
+    <!-- SINGLE VIDEO -->
+    <div id="videoSection"></div>
+
+    <!-- PLAYLIST OPTIONS -->
+    <div id="playlistOptions" style="display:none;">
+        <h3>Playlist Options</h3>
+
+        <select id="playlistQuality">
+            <option value="best">Best Quality</option>
+            <option value="worst">Low Quality</option>
+        </select>
+
+        <label>
+            <input type="checkbox" id="playlistAudio"> MP3
+        </label>
+    </div>
+
+    <!-- PLAYLIST -->
+    <div id="playlistSection"></div>
+
+    <button onclick="download()">Download</button>
+    <button onclick="cancelDownload()" style="background:red;">Cancel</button>
+
+    <div class="progress">
+        <div id="bar"></div>
+    </div>
+
+    <div id="extraInfo">
+        <p id="current"></p>
+        <p id="speed"></p>
+        <p id="eta"></p>
+        <p id="status"></p>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
