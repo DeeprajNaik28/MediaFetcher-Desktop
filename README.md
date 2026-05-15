@@ -17,7 +17,14 @@ Users are responsible for complying with:
 The developer of this project does not encourage piracy or unauthorized distribution of copyrighted content.
 
 ---
+# Deployed as UI demo
+https://mediafetcher-desktop.onrender.com/
 
+Cloud deployments may face YouTube bot-detection restrictions.
+
+To use needed to run as local.
+
+---
 # Features
 
 ## Single Video Download
